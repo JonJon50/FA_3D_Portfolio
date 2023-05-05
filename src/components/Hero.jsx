@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -16,12 +17,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText}
-          text-white`}>Hi,  I'm <span className=" 
+          text-white`}>Hi,  my name is  <span className=" 
           text-[#915eff]">John
           </span></h1>
           <p className={`${styles.heroSubText} mt-2
           text-white-100`}>
-            Hi there! I'm a Full Stack Web Developer <br className="sm:block hidden" /> with a passion 
+            Hi there! I am a Full Stack Web Developer <br className="sm:block hidden" /> with a passion 
             for creating intuitive and dynamic web applications. 
           </p>
         </div>
