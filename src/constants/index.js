@@ -200,7 +200,7 @@ import {
     {
       name: "WorkHive",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Our website is a platform for job seekers looking for opportunities. We provide a space for companies to post job openings and for applicants to browse through and apply for positions that match their skills and interests.",
       tags: [
         {
           name: "react",
@@ -216,12 +216,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TrentLe/WorkHive",
     },
     {
-      name: "Job IT",
+      name: "Nanny's Diary",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Entrusting your family childcare to a Nanny's home daycare gives children the added security of being cared for in a home environment while still giving parents the peace of mind that comes from knowing their children are under the supervision of licensed professionals",
       tags: [
         {
           name: "react",
@@ -237,12 +237,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JonJon50/Nannys-Diary1",
     },
     {
-      name: "Trip Guide",
+      name: "Fit Resolution",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Using Geofetch for everyone to be a part of the interaction. Knowing the our fittest goals is important. Through this built we are focus on a functionality that is efficient and effective while saving lives.",
       tags: [
         {
           name: "nextjs",
@@ -258,7 +258,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JonJon50/Fit-Resolution",
     },
   ];
   
