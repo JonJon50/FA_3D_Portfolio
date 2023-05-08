@@ -1,14 +1,15 @@
 import { Suspense, useEffect, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useLoader } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 import CanvasLoader from '../Loader';
 
 const Computers = ({ isMobile }) => {
-  const { scene: computerScene } = useGLTF('../desktop_pc/scene.gltf');
+  const { scene: computerScene } = useGLTF('/desktop_pc/scene.gltf', GLTFLoader);
 
   return (
-    <mesh>
+    <group> {/* Use <group> instead of <mesh> */}
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
@@ -25,7 +26,7 @@ const Computers = ({ isMobile }) => {
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
-    </mesh>
+    </group>
   );
 };
 
@@ -68,4 +69,5 @@ const ComputersCanvas = () => {
   );
 };
 
-export default Computers;
+export default ComputersCanvas;
+
