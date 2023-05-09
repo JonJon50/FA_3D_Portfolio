@@ -211,7 +211,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
@@ -228,11 +228,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "handlebars",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mySQL",
           color: "pink-text-gradient",
         },
       ],
@@ -245,15 +245,15 @@ import {
         "Using Geofetch for everyone to be a part of the interaction. Knowing the our fittest goals is important. Through this built we are focus on a functionality that is efficient and effective while saving lives.",
       tags: [
         {
-          name: "nextjs",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "DOM",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "API",
           color: "pink-text-gradient",
         },
       ],
