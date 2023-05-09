@@ -172,27 +172,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but John proved me wrong.",
+      name: "Lebron James",
+      designation: "Power house",
+      company: "Lakers",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/800px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like John does.",
+      name: "Stephen Curry",
+      designation: "3 point shooter",
+      company: "Warriors",
+      image: "https://e0.365dm.com/22/05/768x432/skysports-steph-curry-nba-basketball_5771331.jpg?20220514133850",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After John optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Luka Dončić",
+      designation: "Point Guard",
+      company: "Mavericks",
+      image: "https://a.espncdn.com/photo/2022/1130/r1099347_1296x729_16-9.jpg",
     },
   ];
   
