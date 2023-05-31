@@ -1,19 +1,24 @@
-import { Suspense, useEffect, useState } from 'react';
-import { Canvas, useLoader } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { Suspense, useEffect, useState } from "react";
+import { Canvas, useLoader } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-import CanvasLoader from '../Loader';
+import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const { scene: computerScene } = useGLTF('/desktop_pc/scene.gltf', GLTFLoader);
+  const { scene: computerScene } = useGLTF(
+    "/desktop_pc/scene.gltf",
+    GLTFLoader
+  );
 
   return (
-    <group> {/* Use <group> instead of <mesh> */}
+    <group>
+      {" "}
+      {/* Use <group> instead of <mesh> */}
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
-        position={[-20, 50, 10]} 
+        position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -34,17 +39,17 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
 
-    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
@@ -56,7 +61,7 @@ const ComputersCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls 
+        <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
@@ -70,4 +75,3 @@ const ComputersCanvas = () => {
 };
 
 export default ComputersCanvas;
-
