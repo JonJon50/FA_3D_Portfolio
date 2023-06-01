@@ -41,7 +41,14 @@ Go to the internet, type in #D Portfolio. That's it!
 3. The user will also be able to make comments on posts. 
 4. Enjoy!!
 
-🔭 [Deployment Website]() 🔭
+🔭 [Deployment Website](https://fa-3-d-portfolio.vercel.app/) 🔭
+
+
+
+![Photo0](/src/assets/John%20_%20Coding%20for%20the%20Future!.gif)
+![Photo1](/src/assets/1.png)
+![Photo2](/src/assets/2.png)
+![Photo3](/src/assets/3.png)
 
 <br>
 

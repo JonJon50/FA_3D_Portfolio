@@ -9,8 +9,10 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run check-build && gh-pages -d build",
+    "check-build": "test -d build || npm run build"
   },
+  
   "homepage": "http://JonJon50.github.io/FA_3D_Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
