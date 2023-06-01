@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/JonJon50/FA_3D_Portfolio.git",
+  "homepage": "http://JonJon50.github.io/FA_3D_Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.66.6",
