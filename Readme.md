@@ -52,7 +52,7 @@ Go to the internet, type in #D Portfolio. That's it!
 
 <br>
 
-<h2>Languages Used</h2>
+<h2>Languages</h2>
 
 - JavaScript
 - Tailwind
